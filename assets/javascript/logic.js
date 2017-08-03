@@ -35,6 +35,11 @@ $(document).ready(function () {
             dateAdded: firebase.database.ServerValue.TIMESTAMP
         });
 
+        // clear the on-screen fields
+        $("#name-input").val('');
+        $("#role-input").val('');
+        $("#start-input").val('');
+        $("#rate-input").val('');
 
     });
 
