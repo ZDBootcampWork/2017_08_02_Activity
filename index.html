@@ -14,34 +14,45 @@
 
 <body>
 	<!-- create a jumbo-tron to hold the title and description -->
+  <div class="container">
+    <div class="header clearfix">
+   </div>
 	<div class="jumbotron text-center top-buffer">
-	  <div class="container">
-	 <h1>Employee Data Management</h1>
-	  </div><br>
-	  <div>
-	  <h2>A Comprehensive Directory of Employee Billable Hours</h2>
-	  </div>
-	</div>
+	   <h1>Employee Data Management</h1>
+	     <br>
+	   <div>
+	     <h2>A Comprehensive Directory of Employee Billable Hours</h2>
+	   </div>
+  </div>
+
+
 	<!-- create row and col-12 to hold the panel table form -->
 	<div class="row top-buffer">
-		<div class="col-12-md">
-		<div class="panel panel-default">
-	  <!-- Default panel contents -->
-	  <div class="panel-heading">Current Employees</div>
-	  <div class="panel-body">
-	    <p>...</p>
-	  </div>
+		<div class="col-md-12">
+		  <div class="panel panel-default">
+
+	     <!-- Default panel contents -->
+	     <div class="panel-heading">
+        <b>Current Employees</b>
+      </div>
 
 	  <!-- Table -->
 	  <table class="table emp-table">
-	    ...
-	  </table>
+	   <tr class="row-table">
+        <th>Employee Name</th>
+        <th>Role</th> 
+        <th>Startdate</th>
+        <th>Months Worked</th>
+        <th>Monthly Rate ($)</th>
+        <th>Total Billed ($)</th>
+      </tr>
+	   </table>
+    </div>
+	 </div>
 	</div>
-	</div>
-</div>
 <!-- create second row -->
 <div class="row top-buffer">
-<div class="col-lg-6">
+<div class="col-md-12">
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">Add Employee</h3>
@@ -72,6 +83,7 @@
         </div>
       </div>
      </div>
+    </div>
 
 </body>
 </html>
