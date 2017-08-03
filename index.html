@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TimeSheet</title>
+
+    <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!--- CSS file -->
+
+
+</head>
+
+<body>
+	<!-- create a jumbo-tron to hold the title and description -->
+	<div class="jumbotron text-center top-buffer">
+	  <div class="container">
+	 <h1>Employee Data Management</h1>
+	  </div><br>
+	  <div>
+	  <h2>A Comprehensive Directory of Employee Billable Hours</h2>
+	  </div>
+	</div>
+	<!-- create row and col-12 to hold the panel table form -->
+	<div class="row top-buffer">
+		<div class="col-12-md">
+		<div class="panel panel-default">
+	  <!-- Default panel contents -->
+	  <div class="panel-heading">Current Employees</div>
+	  <div class="panel-body">
+	    <p>...</p>
+	  </div>
+
+	  <!-- Table -->
+	  <table class="table emp-table">
+	    ...
+	  </table>
+	</div>
+	</div>
+</div>
+<!-- create second row -->
+<div class="row top-buffer">
+<div class="col-lg-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Add Employee</h3>
+          </div>
+          <div class="panel-body">
+            <!-- Sign-up Form (note the various input "types")-->
+            <form role="form">
+              <div class="form-group">
+                <label for="name-input">Employee Name:</label>
+                <input class="form-control" id="name-input" type="text">
+              </div>
+              <div class="form-group">
+                <label for="email-input">Role:</label>
+                <input class="form-control" id="email-input" type="email">
+              </div>
+              <div class="form-group">
+                <label for="start-input">Start Date (DDMMYYYY):</label>
+                <input class="form-control" id="start-input" type="number">
+              </div>
+              <div class="form-group">
+                <label for="rate-input">Montly Rate:</label>
+                <input class="form-control" id="rate-input" type="number">
+              </div>
+              
+              <button class="btn btn-default" id="add-user" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+     </div>
+
+</body>
+</html>
